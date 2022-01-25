@@ -1,0 +1,16 @@
+{
+  "name": "my-vuepress",
+  "version": "1.0.0",
+  "description": "A project of vuepress-theme-hope",
+  "license": " ",
+  "scripts": {
+    "build": "vuepress build src",
+    "clean-dev": "vuepress dev src --no-cache",
+    "dev": "vuepress dev src",
+    "eject-theme": "vuepress eject-hope src"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-theme-hope": "^1.27.0"
+  }
+}
