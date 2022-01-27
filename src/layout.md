@@ -1,6 +1,7 @@
 ---
 title: Custom Layout
 icon: layout
+article: false
 ---
 
 You can use slots with markdown and component support to custom page layout.

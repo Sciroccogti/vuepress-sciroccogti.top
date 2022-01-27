@@ -41,6 +41,7 @@ module.exports = config({
     nav: [
       { text: "Home", link: "/", icon: "home" },
       { text: "Notes", icon: "note", link: "/notes/" },
+      { text: "Friends", icon: "link", link: "/friends/" },
       {
         text: "Others", icon: "list",
         items: [
@@ -116,53 +117,53 @@ module.exports = config({
       favicon: "/favicon.ico",
       cachePic: true,
       apple: {
-        icon: "/assets/icon/apple-icon-152.png",
+        icon: "/pwaicons/512.png",
         statusBarColor: "black",
       },
       msTile: {
-        image: "/assets/icon/ms-icon-144.png",
+        image: "/pwaicons/144.png",
         color: "#ffffff",
       },
       manifest: {
         icons: [
           {
-            src: "/assets/icon/chrome-mask-512.png",
+            src: "/pwaicons/maskable_icon.png",
             sizes: "512x512",
             purpose: "maskable",
             type: "image/png",
           },
+          // {
+          //   src: "/pwaicons/192.png",
+          //   sizes: "192x192",
+          //   purpose: "maskable",
+          //   type: "image/png",
+          // },
           {
-            src: "/assets/icon/chrome-mask-192.png",
-            sizes: "192x192",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-512.png",
+            src: "/pwaicons/512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "/assets/icon/chrome-192.png",
+            src: "/pwaicons/192.png",
             sizes: "192x192",
             type: "image/png",
           },
         ],
         shortcuts: [
           {
-            name: "Guide",
-            short_name: "Guide",
-            url: "/guide/",
+            name: "Notes",
+            short_name: "Notes",
+            url: "/notes/",
             icons: [
               {
-                src: "/assets/icon/guide-maskable.png",
-                sizes: "192x192",
+                src: "/pwaicons/maskable_icon.png",
+                sizes: "512x512",
                 purpose: "maskable",
                 type: "image/png",
               },
               {
-                src: "/assets/icon/guide-monochrome.png",
-                sizes: "192x192",
+                src: "/pwaicons/512.png",
+                sizes: "512x512",
                 purpose: "monochrome",
                 type: "image/png",
               },

@@ -3,6 +3,7 @@ title: 课程笔记
 icon: note
 star: true
 breadcrumb: false
+article: false
 ---
 
 - [英文技术写作](英文技术写作/index.md)
