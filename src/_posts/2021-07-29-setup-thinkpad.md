@@ -17,7 +17,7 @@ show_author_profile: true
 这台笔记本非常奇怪地把 *Fn* 键放在了最左下角，而 *Ctrl* 则屈居其右。
 好在工程师也觉得这很奇怪，因此在 Bios 中预设了交换两者位置的选项：Config->Keyboard->Fn and Ctrl Key swap。
 
-<!-- ![](2021/keyboard.webp) TODO -->
+<!-- ![](./2021/keyboard.webp) TODO -->
 
 按照惯例，再把功能键关闭（也就是按下 Fn+F1 才能关闭音量云云）：Config->Keyboard->F1-F12 as Primary Function。
 

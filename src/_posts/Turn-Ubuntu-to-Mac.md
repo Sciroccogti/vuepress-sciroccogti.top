@@ -43,7 +43,7 @@ sudo apt install chrome-gnome-shell
 - ~~[Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)~~Dash to Dock 目前对 Gnome 40 支持不好，推荐用 [Floating Dock](https://extensions.gnome.org/extension/3730/floating-dock/)
 
 以上文件安装后均需在 *tweaks* 软件中设置，如图：
-![](2020/tweaks.png)
+![](./2020/tweaks.png)
 
 ### 启动动画
 
