@@ -46,7 +46,7 @@ Java Memory Model (JMM)
 
 Sequential Consistency (SC) Model，顺序存储模型
 
-![](index/sc.png)
+![](./index/sc.png)
 
 这种与顺序存储模型不符的 reordering 优化在 Java 或其它编译器中存在
 
@@ -57,7 +57,7 @@ Data-Race-Freedom (DRF)，无数据竞争：读写冲突/写写冲突
 DRF 程序就不用担心受 reordering 优化影响。
 因此编译器也可以大肆优化：
 
-![](index/drf.png)
+![](./index/drf.png)
 
 ### 1-3 Happens-Before
 
