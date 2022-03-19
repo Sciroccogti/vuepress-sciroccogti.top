@@ -40,7 +40,7 @@ export default defineThemeConfig({
     roundAvatar: true,
     // description: "一个前端开发者",
     intro: "/about/",
-    // sidebarDisplay: "mobile",
+    // sidebarDisplay: "always",
     timeline: "时间线",
     medias: {
       Email: "scirocco_gti@yeah.net",

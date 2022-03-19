@@ -2,6 +2,7 @@
 icon: info
 publishdate:       2018-10-05 22:00:00+08:00
 lastmod:    2022-01-25T20:00:00+08:00
+article: false
 ---
 
 [查看简历](https://onedrive.live.com/View.aspx?resid=C3D5F75DA67AC03A!8169&authkey=!AAqzWjX3Wwncgok)

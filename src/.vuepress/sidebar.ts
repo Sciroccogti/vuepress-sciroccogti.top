@@ -4,6 +4,15 @@ export default defineSidebarConfig({
   "/notes/": [
       "",
       {
+          text: "信息论与编码",
+          prefix: "信息论与编码/",
+          children: [
+              "",
+              "info1.md",
+              "info2.md",
+          ]
+      },
+      {
           text: "英文技术写作",
           prefix: "英文技术写作/",
           children: [
